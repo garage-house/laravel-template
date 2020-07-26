@@ -1,9 +1,14 @@
-# docker-laravel
+## Clone and Install
+It is assumed that Laravel is already installed.
 
-Build Laravel's development environment using docker.
-PHP7.4/MySQL8.0/nginx/Redis/MailHog
+```
+Clone this project.(このプロジェクトをクローンしてください。)
 
-## Build
+$ cd docker-laravel/infrastructure
+$ make init
+```
 
-- [Build for Mac](https://github.com/ucan-lab/docker-laravel/wiki/Build-for-Mac)
-- [Build for Windows](https://github.com/ucan-lab/docker-laravel/wiki/Build-for-Windows)
+http://127.0.0.1
+
+## Thanks
+[@ucan-lab](https://github.com/ucan-lab)
